@@ -4,7 +4,7 @@ set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl
 set arg.firefox=-ms
 set chk.firefox='%ProgramFiles%\Mozilla Firefox\firefox.exe'
 
-set ver.loffice=7.2.4
+set ver.loffice=7.2.5
 set exe.loffice=LibreOffice_%ver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%ver.loffice%/win/x86_64/%exe.loffice%
 set arg.loffice=/qn /passive /norestart
