@@ -44,7 +44,7 @@ set url.bbit=https://download.bleachbit.org/%exe.bbit%
 set arg.bbit=/S /allusers
 set chk.bbit='%ProgramFiles(x86)%\BleachBit\bleachbit.exe'
 
-set ver.7zip=2106
+set ver.7zip=2107
 set exe.7zip=7z%ver.7zip%-x64.msi
 set url.7zip=https://www.7-zip.org/a/%exe.7zip%
 set arg.7zip=/qn /norestart
