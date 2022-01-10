@@ -10,7 +10,7 @@ set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%ver.
 set arg.loffice=/qn /passive /norestart
 set chk.loffice='%ProgramFiles%\LibreOffice\program\soffice.exe'
 
-set ver.lofficehelp=7.2.4
+set ver.lofficehelp=7.2.5
 set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
