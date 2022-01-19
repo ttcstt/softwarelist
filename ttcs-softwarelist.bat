@@ -1,4 +1,4 @@
-set ver.firefox=96.0
+set ver.firefox=96.0.1
 set exe.firefox=Firefox Setup %ver.firefox%.exe
 set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl&os=win64&lang=en-US"
 set arg.firefox=-ms
@@ -56,13 +56,13 @@ set url.spdf=https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/re
 set arg.spdf=/S
 set chk.spdf='%LOCALAPPDATA%\SumatraPDF\SumatraPDF.exe'
 
-set ver.tpaint=0.9.27-2
+set ver.tpaint=0.9.27-3
 set exe.tpaint=tuxpaint-%ver.tpaint%-windows-x86_64-installer.exe
 set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.27/%exe.tpaint%/download
 set arg.tpaint=/VERYSILENT /NORESTART
 set chk.tpaint='C:\%ProgramFiles(x86)%\TuxPaint'
 
 set ver.tstamps=2021-11-25
-set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-windows-installer.exe
+set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-2-windows-installer.exe
 set url.tstamps=https://sourceforge.net/projects/tuxpaint/files/tuxpaint-stamps/%ver.tstamps%/%exe.tstamps%/download
 set arg.tstamps=/VERYSILENT /NORESTART
