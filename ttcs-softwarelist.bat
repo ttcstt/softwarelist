@@ -15,7 +15,7 @@ set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
 
-set ver.pdfsam=4.2.10
+set ver.pdfsam=4.2.12
 set exe.pdfsam=pdfsam-%ver.pdfsam%.msi
 set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%ver.pdfsam%/%exe.pdfsam%
 set arg.pdfsam=/quiet /passive CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes
