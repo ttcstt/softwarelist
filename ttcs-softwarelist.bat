@@ -1,16 +1,16 @@
-set ver.firefox=96.0.3
+set ver.firefox=97.0
 set exe.firefox=Firefox Setup %ver.firefox%.exe
 set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl&os=win64&lang=en-US"
 set arg.firefox=-ms
 set chk.firefox='%ProgramFiles%\Mozilla Firefox\firefox.exe'
 
-set ver.loffice=7.2.5
+set ver.loffice=7.3.0
 set exe.loffice=LibreOffice_%ver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%ver.loffice%/win/x86_64/%exe.loffice%
 set arg.loffice=/qn /passive /norestart
 set chk.loffice='%ProgramFiles%\LibreOffice\program\soffice.exe'
 
-set ver.lofficehelp=7.2.5
+set ver.lofficehelp=7.3.0
 set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
@@ -21,7 +21,7 @@ set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%ver.pdfsam
 set arg.pdfsam=/quiet /passive CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes
 set chk.pdfsam='%ProgramFiles%\PDFsam Basic\pdfsam.exe'
 
-set ver.npp=8.2.1
+set ver.npp=8.3
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
 set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v%ver.npp%/%exe.npp%
 set arg.npp=/S
@@ -62,7 +62,7 @@ set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.27/%
 set arg.tpaint=/VERYSILENT /NORESTART
 set chk.tpaint='C:\%ProgramFiles(x86)%\TuxPaint'
 
-set ver.tstamps=2021-11-25
-set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-2-windows-installer.exe
+set ver.tstamps=2021-11-25-2
+set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-windows-installer.exe
 set url.tstamps=https://sourceforge.net/projects/tuxpaint/files/tuxpaint-stamps/%ver.tstamps%/%exe.tstamps%/download
 set arg.tstamps=/VERYSILENT /NORESTART
