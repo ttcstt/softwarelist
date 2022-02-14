@@ -66,3 +66,8 @@ set ver.tstamps=2021-11-25-2
 set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-windows-installer.exe
 set url.tstamps=https://sourceforge.net/projects/tuxpaint/files/tuxpaint-stamps/%ver.tstamps%/%exe.tstamps%/download
 set arg.tstamps=/VERYSILENT /NORESTART
+
+set ver.puzzlecollection=20220128.c43a34f
+set exe.puzzlecollection=puzzles-%ver.puzzlecollection%-installer.msi
+set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
+set arg.puzzlecollection=/qn /norestart
