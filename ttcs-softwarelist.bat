@@ -1,4 +1,4 @@
-set ver.firefox=97.0
+set ver.firefox=97.0.1
 set exe.firefox=Firefox Setup %ver.firefox%.exe
 set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl&os=win64&lang=en-US"
 set arg.firefox=-ms
