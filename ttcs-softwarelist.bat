@@ -1,4 +1,4 @@
-set ver.firefox=98.0
+set ver.firefox=98.0.1
 set exe.firefox=Firefox Setup %ver.firefox%.exe
 set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl&os=win64&lang=en-US"
 set arg.firefox=-ms
@@ -33,7 +33,7 @@ set url.vlc=https://get.videolan.org/vlc/%ver.vlc%/win64/%exe.vlc%
 set arg.vlc=/S
 set chk.vlc='%ProgramFiles%\VideoLAN\VLC\vlc.exe'
 
-set ver.joplin=2.7.13
+set ver.joplin=2.7.14
 set exe.joplin=Joplin-Setup-%ver.joplin%.exe
 set url.joplin=https://github.com/laurent22/joplin/releases/download/v%ver.joplin%/%exe.joplin%
 set arg.joplin=/ALLUSERS=1 /S
