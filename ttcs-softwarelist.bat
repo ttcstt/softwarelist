@@ -1,3 +1,5 @@
+set softwarelist=firefox loffice lofficehelp pdfsam npp vlc joplin bbit 7zip spdf tpaint tstamps puzzlecollection
+
 set ver.firefox=98.0.1
 set exe.firefox=Firefox Setup %ver.firefox%.exe
 set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl&os=win64&lang=en-US"
