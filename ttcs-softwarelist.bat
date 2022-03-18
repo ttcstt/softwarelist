@@ -23,7 +23,7 @@ set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%ver.pdfsam
 set arg.pdfsam=/quiet /passive CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes
 set chk.pdfsam='%ProgramFiles%\PDFsam Basic\pdfsam.exe'
 
-set ver.npp=8.3.3
+set ver.npp=8.3.2
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
 set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v%ver.npp%/%exe.npp%
 set arg.npp=/S
@@ -35,7 +35,7 @@ set url.vlc=https://get.videolan.org/vlc/%ver.vlc%/win64/%exe.vlc%
 set arg.vlc=/S
 set chk.vlc='%ProgramFiles%\VideoLAN\VLC\vlc.exe'
 
-set ver.joplin=2.7.15
+set ver.joplin=2.7.13
 set exe.joplin=Joplin-Setup-%ver.joplin%.exe
 set url.joplin=https://github.com/laurent22/joplin/releases/download/v%ver.joplin%/%exe.joplin%
 set arg.joplin=/ALLUSERS=1 /S
