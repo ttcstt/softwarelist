@@ -54,7 +54,7 @@ set chk.7zip='%ProgramFiles%\7-Zip\7z.exe'
 
 set ver.spdf=3.3.3
 set exe.spdf=SumatraPDF-%ver.spdf%-64-install.exe
-set url.spdf=https://kjkpubsf.sfo2.digitaloceanspaces.com/software/sumatrapdf/rel/%url.spdf%
+set url.spdf=https://www.sumatrapdfreader.org/dl/rel/%exe.spdf%
 set arg.spdf=/S
 set chk.spdf='%LOCALAPPDATA%\SumatraPDF\SumatraPDF.exe'
 
