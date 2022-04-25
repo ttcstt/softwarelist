@@ -17,7 +17,7 @@ set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
 
-set ver.pdfsam=4.2.12
+set ver.pdfsam=4.3.0
 set exe.pdfsam=pdfsam-%ver.pdfsam%.msi
 set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%ver.pdfsam%/%exe.pdfsam%
 set arg.pdfsam=/quiet /passive CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes
@@ -29,7 +29,7 @@ set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/down
 set arg.npp=/S
 set chk.npp='%ProgramFiles%\Notepad++\notepad++.exe'
 
-set ver.vlc=3.0.16
+set ver.vlc=3.0.17.4
 set exe.vlc=vlc-%ver.vlc%-win64.exe
 set url.vlc=https://get.videolan.org/vlc/%ver.vlc%/win64/%exe.vlc%
 set arg.vlc=/S
