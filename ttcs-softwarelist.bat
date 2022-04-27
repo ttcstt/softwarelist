@@ -23,7 +23,7 @@ set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%ver.pdfsam
 set arg.pdfsam=/quiet /passive CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes
 set chk.pdfsam='%ProgramFiles%\PDFsam Basic\pdfsam.exe'
 
-set ver.npp=8.3.3
+set ver.npp=8.4
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
 set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v%ver.npp%/%exe.npp%
 set arg.npp=/S
