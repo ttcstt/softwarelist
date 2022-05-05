@@ -6,13 +6,13 @@ set url.firefox="https://download.mozilla.org/?product=firefox-%ver.firefox%-ssl
 set arg.firefox=-ms
 set chk.firefox='%ProgramFiles%\Mozilla Firefox\firefox.exe'
 
-set ver.loffice=7.3.2
+set ver.loffice=7.3.3
 set exe.loffice=LibreOffice_%ver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%ver.loffice%/win/x86_64/%exe.loffice%
 set arg.loffice=/qn /passive /norestart
 set chk.loffice='%ProgramFiles%\LibreOffice\program\soffice.exe'
 
-set ver.lofficehelp=7.3.2
+set ver.lofficehelp=7.3.3
 set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
