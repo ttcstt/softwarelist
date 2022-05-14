@@ -16,6 +16,7 @@ set ver.lofficehelp=7.3.3
 set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
+set chk.lofficehelp='%ProgramFiles%\LibreOffice\
 
 set ver.pdfsam=4.3.0
 set exe.pdfsam=pdfsam-%ver.pdfsam%.msi
@@ -23,7 +24,7 @@ set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%ver.pdfsam
 set arg.pdfsam=/quiet /passive CHECK_FOR_UPDATES=false SKIPTHANKSPAGE=Yes
 set chk.pdfsam='%ProgramFiles%\PDFsam Basic\pdfsam.exe'
 
-set ver.npp=8.4
+set ver.npp=8.4.1
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
 set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v%ver.npp%/%exe.npp%
 set arg.npp=/S
@@ -39,6 +40,7 @@ set ver.joplin=2.7.15
 set exe.joplin=Joplin-Setup-%ver.joplin%.exe
 set url.joplin=https://github.com/laurent22/joplin/releases/download/v%ver.joplin%/%exe.joplin%
 set arg.joplin=/ALLUSERS=1 /S
+set chk.joplin='%ProgramFiles%\Joplin.exe'
 
 set ver.bbit=4.4.2
 set exe.bbit=BleachBit-%ver.bbit%-setup.exe
@@ -73,3 +75,4 @@ set ver.puzzlecollection=20220128.c43a34f
 set exe.puzzlecollection=puzzles-%ver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
 set arg.puzzlecollection=/qn /norestart
+set chk.puzzlecollection='%ProgramFiles%\Simon Tatham's Portable Puzzle Collection\'
