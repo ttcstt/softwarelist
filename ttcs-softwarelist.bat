@@ -16,7 +16,7 @@ set ver.lofficehelp=7.3.3
 set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
-set chk.lofficehelp='%ProgramFiles%\LibreOffice\
+set chk.lofficehelp='%ProgramFiles%\LibreOffice\'
 
 set ver.pdfsam=4.3.0
 set exe.pdfsam=pdfsam-%ver.pdfsam%.msi
@@ -40,7 +40,7 @@ set ver.joplin=2.7.15
 set exe.joplin=Joplin-Setup-%ver.joplin%.exe
 set url.joplin=https://github.com/laurent22/joplin/releases/download/v%ver.joplin%/%exe.joplin%
 set arg.joplin=/ALLUSERS=1 /S
-set chk.joplin='%ProgramFiles%\Joplin.exe'
+set chk.joplin='%ProgramFiles%\Joplin\Joplin.exe'
 
 set ver.bbit=4.4.2
 set exe.bbit=BleachBit-%ver.bbit%-setup.exe
@@ -64,7 +64,7 @@ set ver.tpaint=0.9.27-3
 set exe.tpaint=tuxpaint-%ver.tpaint%-windows-x86_64-installer.exe
 set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.27/%exe.tpaint%/download
 set arg.tpaint=/VERYSILENT /NORESTART
-set chk.tpaint='C:\%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe'
+set chk.tpaint='%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe'
 
 set ver.tstamps=2021-11-25-2
 set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-windows-installer.exe
