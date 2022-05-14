@@ -16,7 +16,7 @@ set ver.lofficehelp=7.3.3
 set exe.lofficehelp=LibreOffice_%ver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%ver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
-set chk.lofficehelp=%ProgramFiles%\LibreOffice\
+set chk.lofficehelp=%ProgramFiles%\LibreOffice\help\en-US\text\shared\need_help.html
 
 set ver.pdfsam=4.3.0
 set exe.pdfsam=pdfsam-%ver.pdfsam%.msi
