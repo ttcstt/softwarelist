@@ -64,7 +64,7 @@ set ver.tpaint=0.9.27-3
 set exe.tpaint=tuxpaint-%ver.tpaint%-windows-x86_64-installer.exe
 set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.27/%exe.tpaint%/download
 set arg.tpaint=/VERYSILENT /NORESTART
-set chk.tpaint='C:\%ProgramFiles(x86)%\TuxPaint'
+set chk.tpaint='C:\%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe'
 
 set ver.tstamps=2021-11-25-2
 set exe.tstamps=tuxpaint-stamps-%ver.tstamps%-windows-installer.exe
