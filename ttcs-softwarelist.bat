@@ -76,4 +76,4 @@ set ver.puzzlecollection=20220128.c43a34f
 set exe.puzzlecollection=puzzles-%ver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
 set arg.puzzlecollection=/qn /norestart
-set chk.puzzlecollection=%ProgramFiles%\Simon Tatham''s Portable Puzzle Collection\solo.exe
+set chk.puzzlecollection=%ProgramFiles%\Simon Tatham's Portable Puzzle Collection\solo.exe
