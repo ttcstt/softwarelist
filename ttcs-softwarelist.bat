@@ -56,7 +56,7 @@ set exe.bbit=BleachBit-%ver.bbit%-setup.exe
 set url.bbit=https://download.bleachbit.org/%exe.bbit%
 set arg.bbit=/S /allusers
 set chk.bbit=%ProgramFiles(x86)%\BleachBit\bleachbit.exe
-set reg.bblt=%uninstallreg32%\BleachBit
+set reg.bbit=%uninstallreg32%\BleachBit
 
 set ver.7zip=2107
 set exe.7zip=7z%ver.7zip%-x64.msi
