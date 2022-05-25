@@ -70,6 +70,7 @@ set exe.spdf=SumatraPDF-%ver.spdf%-64-install.exe
 set url.spdf=https://www.sumatrapdfreader.org/dl/rel/%exe.spdf%
 set arg.spdf=/S
 set chk.spdf=%LOCALAPPDATA%\SumatraPDF\SumatraPDF.exe
+set reg.spdf=%uninstallreg64%\SumatraPDF
 
 set ver.tpaint=0.9.27-3
 set exe.tpaint=tuxpaint-%ver.tpaint%-windows-x86_64-installer.exe
