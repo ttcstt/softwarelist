@@ -99,7 +99,7 @@ set chk.tstamps=%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe
 set reg..tstamps=%uninstallreg32%\Tux Paint Stamps_is1
 
 set ver.puzzlecollection=20220128.c43a34f
-set name.puzzlecollection=Simon Tatham's Portable Puzzle Collection
+set name.puzzlecollection=Simon Tatham\'s Portable Puzzle Collection
 set exe.puzzlecollection=puzzles-%ver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
 set arg.puzzlecollection=/qn /norestart
