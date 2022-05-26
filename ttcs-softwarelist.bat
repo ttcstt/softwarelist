@@ -35,7 +35,7 @@ set chk.pdfsam=%ProgramFiles%\PDFsam Basic\pdfsam.exe
 set reg.pdfsam=%uninstallreg64%\{8BD7882E-AF21-4327-9A48-333CAD22D3A1}
 
 set ver.npp=8.4.1
-set name.npp=Notepad
+set name.npp=Notepad++
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
 set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v%ver.npp%/%exe.npp%
 set arg.npp=/S
@@ -99,7 +99,7 @@ set chk.tstamps=%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe
 set reg..tstamps=%uninstallreg32%\Tux Paint Stamps_is1
 
 set ver.puzzlecollection=20220128.c43a34f
-set name.puzzlecollection=Simon Tatham\'s Portable Puzzle Collection
+set name.puzzlecollection=Portable Puzzle Collection
 set exe.puzzlecollection=puzzles-%ver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
 set arg.puzzlecollection=/qn /norestart
