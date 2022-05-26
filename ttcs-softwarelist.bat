@@ -35,7 +35,7 @@ set chk.pdfsam=%ProgramFiles%\PDFsam Basic\pdfsam.exe
 set reg.pdfsam=%uninstallreg64%\{8BD7882E-AF21-4327-9A48-333CAD22D3A1}
 
 set ver.npp=8.4.1
-set name.npp=Notepad++
+set name.npp=Notepad
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
 set url.npp=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v%ver.npp%/%exe.npp%
 set arg.npp=/S
