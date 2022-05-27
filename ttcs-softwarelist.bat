@@ -79,7 +79,7 @@ set exe.bbit=BleachBit-%pkgver.bbit%-setup.exe
 set url.bbit=https://download.bleachbit.org/%exe.bbit%
 set arg.bbit=/S /allusers
 set chk.bbit=%ProgramFiles(x86)%\BleachBit\bleachbit.exe
-set regtext.bbit
+set regtext.bbit=BleachBit
 set reg.bbit=%uninstallreg32%\BleachBit
 
 set pkgver.7zip=2107
@@ -88,7 +88,8 @@ set name.7zip=7-Zip
 set exe.7zip=7z%pkgver.7zip%-x64.msi
 set url.7zip=https://www.7-zip.org/a/%exe.7zip%
 set arg.7zip=/qn /norestart
-set chk.7zip=%ProgramFiles%\7-Zip\7z.exe 
+set chk.7zip=%ProgramFiles%\7-Zip\7z.exe
+set regtext.7zip=7-Zip
 set reg.7zip=%uninstallreg64%\{23170F69-40C1-2702-2107-000001000000}
 
 set pkgver.spdf=3.4.1
@@ -98,6 +99,7 @@ set exe.spdf=SumatraPDF-%pkgver.spdf%-64-install.exe
 set url.spdf=https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/rel/%pkgver.spdf%/%exe.spdf%
 set arg.spdf=/S
 set chk.spdf=%LOCALAPPDATA%\SumatraPDF\SumatraPDF.exe
+set regtext.spdf=Sumatra
 set reg.spdf=%uninstallreg64%\SumatraPDF
 
 set pkgver.tpaint=0.9.27-3
@@ -107,6 +109,7 @@ set exe.tpaint=tuxpaint-%ver.tpaint%-windows-x86_64-installer.exe
 set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.27/%exe.tpaint%/download
 set arg.tpaint=/VERYSILENT /NORESTART
 set chk.tpaint=%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe
+set regtext.tpaint=Tux Paint
 set reg.tpaint=%uninstallreg32%\Tux Paint_is1
 
 set pkgver.tstamps=2021-11-25-2
@@ -116,6 +119,7 @@ set exe.tstamps=tuxpaint-stamps-%pkgver.tstamps%-windows-installer.exe
 set url.tstamps=https://sourceforge.net/projects/tuxpaint/files/tuxpaint-stamps/%pkgver.tstamps%/%exe.tstamps%/download
 set arg.tstamps=/VERYSILENT /NORESTART
 set chk.tstamps=%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe
+set regtext.tstamps=Tux Paint Stamps
 set reg.tstamps=%uninstallreg32%\Tux Paint Stamps_is1
 
 set pkgver.puzzlecollection=20220128.c43a34f
@@ -125,4 +129,5 @@ set exe.puzzlecollection=puzzles-%pkgver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
 set arg.puzzlecollection=/qn /norestart
 set chk.puzzlecollection=%ProgramFiles%\Simon Tatham's Portable Puzzle Collection\solo.exe
+set regtext.puzzlecollection=Simon Tatham's Portable Puzzle Collection
 set reg.puzzlecollection=%uninstallreg64%\{F0EC548C-2799-4BD1-864A-4C76E2022E52}
