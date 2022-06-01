@@ -12,7 +12,7 @@ set chk.firefox=%ProgramFiles%\Mozilla Firefox\firefox.exe
 set regtext.firefox=firefox
 set regsearch.firefox=%uninstallreg64%
 set reg.firefox=Mozilla Firefox %pkgver.firefox% (x64 en-US)
-set unarg.firefox=-ms
+
 
 set pkgver.loffice=7.3.3
 set ver.loffice=7.3.3.2
@@ -24,7 +24,7 @@ set chk.loffice=%ProgramFiles%\LibreOffice\program\soffice.exe
 set regtext.loffice=(multilanguage)
 set regsearch.loffice=%uninstallreg64%
 set reg.loffice={2C4A93B5-0849-44CC-8302-C73E05930E93}
-set unarg.loffice=/qn 
+
 
 set pkgver.lofficehelp=7.3.3
 set ver.lofficehelp=7.3.3.2
@@ -108,8 +108,8 @@ set ver.spdf=%pkgver.spdf%
 set name.spdf=Sumatra PDF
 set exe.spdf=SumatraPDF-%pkgver.spdf%-64-install.exe
 set url.spdf=https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/rel/%pkgver.spdf%/%exe.spdf%
-set arg.spdf=/S
-set chk.spdf=%LOCALAPPDATA%\SumatraPDF\SumatraPDF.exe
+set arg.spdf=-d "%ProgramFiles%\SumatraPDF"/S
+set chk.spdf=%ProgramFiles%\SumatraPDF\SumatraPDF.exe
 set regtext.spdf=Sumatra
 set regsearch.spdf=%uninstallreg64%
 set reg.spdf=SumatraPDF
