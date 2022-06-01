@@ -115,25 +115,25 @@ set regsearch.spdf=%uninstallreg64%
 set reg.spdf=SumatraPDF
 
 set pkgver.tpaint=0.9.27-3
-set ver.tpaint=%pkgver.tpaint%
+set ver.tpaint=0.9.27
 set name.tpaint=TuxPaint
 set exe.tpaint=tuxpaint-%ver.tpaint%-windows-x86_64-installer.exe
 set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.27/%exe.tpaint%/download
 set arg.tpaint=/VERYSILENT /NORESTART
 set chk.tpaint=%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe
 set regtext.tpaint=Tux Paint
-set regsearch.tpaint=%uninstallreg32%
+set regsearch.tpaint=%uninstallreg64%
 set reg.tpaint=Tux Paint_is1
 
 set pkgver.tstamps=2021-11-25-2
-set ver.tstamps=%pkgver.tstamps%
+set ver.tstamps=2021-11-25
 set name.tstamps=TuxPaint Stamps
 set exe.tstamps=tuxpaint-stamps-%pkgver.tstamps%-windows-installer.exe
 set url.tstamps=https://sourceforge.net/projects/tuxpaint/files/tuxpaint-stamps/%pkgver.tstamps%/%exe.tstamps%/download
 set arg.tstamps=/VERYSILENT /NORESTART
 set chk.tstamps=%ProgramFiles(x86)%\TuxPaint\tuxpaint.exe
 set regtext.tstamps=Tux Paint Stamps
-set regsearch.tstamps=%uninstallreg32%
+set regsearch.tstamps=%uninstallreg64%
 set reg.tstamps=Tux Paint Stamps_is1
 
 set pkgver.puzzlecollection=20220128.c43a34f
