@@ -48,7 +48,7 @@ set regtext.pdfsam=PDFsam Basic
 set regsearch.pdfsam=%uninstallreg64%
 set reg.pdfsam={8BD7882E-AF21-4327-9A48-333CAD22D3A1}
 
-set pkgver.npp=8.4.1
+set pkgver.npp=8.4.2
 set ver.npp=%pkgver.npp%
 set name.npp=Notepad++
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
@@ -103,7 +103,7 @@ set regtext.7zip=7-Zip
 set regsearch.7zip=%uninstallreg64%
 set reg.7zip={23170F69-40C1-2702-2107-000001000000}
 
-set pkgver.spdf=3.4.3
+set pkgver.spdf=3.4.4
 set ver.spdf=%pkgver.spdf%
 set name.spdf=Sumatra PDF
 set exe.spdf=SumatraPDF-%pkgver.spdf%-64-install.exe
