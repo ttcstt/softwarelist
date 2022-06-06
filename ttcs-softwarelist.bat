@@ -135,7 +135,7 @@ set chk.tstamps=%ProgramFiles%\TuxPaint\unins001.exe
 set regtext.tstamps=Tux Paint Stamps
 set regsearch.tstamps=%uninstallreg64%
 set reg.tstamps=Tux Paint Stamps_is1
-set followup.tstamps=reg import tuxpaint-stamps.reg
+set followup.tstamps=reg import "%tpath%!"\tuxpaint-stamps.reg
 
 set pkgver.puzzlecollection=20220128.c43a34f
 set ver.puzzlecollection=0.0.13020.0
