@@ -70,7 +70,7 @@ set regtext.vlc=VLC media player
 set regsearch.vlc=%uninstallreg64%
 set reg.vlc=VLC media player
 
-set pkgver.joplin=2.7.15
+set pkgver.joplin=2.8.8
 set ver.joplin=%pkgver.joplin%
 set name.joplin=Joplin
 set exe.joplin=Joplin-Setup-%pkgver.joplin%.exe
