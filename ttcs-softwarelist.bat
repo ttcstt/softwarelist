@@ -83,8 +83,8 @@ set chk.bbit=%ProgramFiles(x86)%\BleachBit\bleachbit.exe
 set regtext.bbit=BleachBit
 set regsearch.bbit=%uninstallreg32%
 
-set pkgver.7zip=2107
-set ver.7zip=21.07.00.0
+set pkgver.7zip=2200
+set ver.7zip=22.00.00.0
 set name.7zip=7-Zip
 set exe.7zip=7z%pkgver.7zip%-x64.msi
 set url.7zip=https://www.7-zip.org/a/%exe.7zip%
