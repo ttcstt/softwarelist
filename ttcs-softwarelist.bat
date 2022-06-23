@@ -122,7 +122,7 @@ set arg.tstamps=/VERYSILENT /NORESTART
 set chk.tstamps=%ProgramFiles%\TuxPaint\unins001.exe
 set regtext.tstamps=Tux Paint Stamps
 set regsearch.tstamps=%uninstallreg64%
-set followup.tstamps=reg import "%tpath%!\tuxpaint-stamps.reg"
+set followup.tstamps=reg import "%tpath%!"\tuxpaint-stamps.reg
 
 set pkgver.puzzlecollection=20220613.387d323
 set ver.puzzlecollection=0.0.13020.0
