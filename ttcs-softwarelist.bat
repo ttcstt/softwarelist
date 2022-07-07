@@ -2,7 +2,7 @@ set softwarelist=firefox loffice lofficehelp pdfsam npp vlc joplin bbit 7zip spd
 set uninstallreg64=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 set uninstallreg32=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 
-set pkgver.firefox=101.0.1
+set pkgver.firefox=102.0.1
 set ver.firefox=%pkgver.firefox%
 set name.firefox=Mozilla Firefox
 set exe.firefox=Firefox Setup %pkgver.firefox%.exe
@@ -51,7 +51,6 @@ set arg.npp=/S
 set chk.npp=%ProgramFiles%\Notepad++\notepad++.exe
 set regtext.npp=Notepad++ (64-bit x64)
 set regsearch.npp=%uninstallreg64%
-
 
 set pkgver.vlc=3.0.17.4
 set ver.vlc=%pkgver.vlc%
