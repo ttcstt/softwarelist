@@ -12,8 +12,8 @@ set chk.firefox=%ProgramFiles%\Mozilla Firefox\firefox.exe
 set regtext.firefox=firefox
 set regsearch.firefox=%uninstallreg64%
 
-set pkgver.loffice=7.3.4
-set ver.loffice=7.3.4.2
+set pkgver.loffice=7.3.5
+set ver.loffice=7.3.5.2
 set name.loffice=LibreOffice
 set exe.loffice=LibreOffice_%pkgver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%pkgver.loffice%/win/x86_64/%exe.loffice%
@@ -22,8 +22,8 @@ set chk.loffice=%ProgramFiles%\LibreOffice\program\soffice.exe
 set regtext.loffice=(multilanguage)
 set regsearch.loffice=%uninstallreg64%
 
-set pkgver.lofficehelp=7.3.4
-set ver.lofficehelp=7.3.4.2
+set pkgver.lofficehelp=7.3.5
+set ver.lofficehelp=7.3.5.2
 set name.lofficehelp=LibreOffice Help Pack
 set exe.lofficehelp=LibreOffice_%pkgver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%pkgver.lofficehelp%/win/x86_64/%exe.lofficehelp%
@@ -32,8 +32,8 @@ set chk.lofficehelp=%ProgramFiles%\LibreOffice\help\en-US\text\shared\need_help.
 set regtext.lofficehelp=Help Pack
 set regsearch.lofficehelp=%uninstallreg64%
 
-set pkgver.pdfsam=4.3.0
-set ver.pdfsam=4.3.0.0
+set pkgver.pdfsam=4.3.2
+set ver.pdfsam=4.3.2.0
 set name.pdfsam=PDF Split and Merge
 set exe.pdfsam=pdfsam-%pkgver.pdfsam%.msi
 set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%pkgver.pdfsam%/%exe.pdfsam%
@@ -42,7 +42,7 @@ set chk.pdfsam=%ProgramFiles%\PDFsam Basic\pdfsam.exe
 set regtext.pdfsam=PDFsam Basic
 set regsearch.pdfsam=%uninstallreg64%
 
-set pkgver.npp=8.4.2
+set pkgver.npp=8.4.4
 set ver.npp=%pkgver.npp%
 set name.npp=Notepad++
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
@@ -82,8 +82,8 @@ set chk.bbit=%ProgramFiles(x86)%\BleachBit\bleachbit.exe
 set regtext.bbit=BleachBit
 set regsearch.bbit=%uninstallreg32%
 
-set pkgver.7zip=2200
-set ver.7zip=22.00.00.0
+set pkgver.7zip=2201
+set ver.7zip=22.01.00.0
 set name.7zip=7-Zip
 set exe.7zip=7z%pkgver.7zip%-x64.msi
 set url.7zip=https://www.7-zip.org/a/%exe.7zip%
