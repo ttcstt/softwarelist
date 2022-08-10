@@ -2,7 +2,7 @@ set softwarelist=firefox loffice lofficehelp pdfsam npp vlc joplin bbit 7zip spd
 set uninstallreg64=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 set uninstallreg32=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 
-set pkgver.firefox=103.0.1
+set pkgver.firefox=103.0.2
 set ver.firefox=%pkgver.firefox%
 set name.firefox=Mozilla Firefox
 set exe.firefox=Firefox Setup %pkgver.firefox%.exe
@@ -32,8 +32,8 @@ set chk.lofficehelp=%ProgramFiles%\LibreOffice\help\en-US\text\shared\need_help.
 set regtext.lofficehelp=Help Pack
 set regsearch.lofficehelp=%uninstallreg64%
 
-set pkgver.pdfsam=4.3.2
-set ver.pdfsam=4.3.2.0
+set pkgver.pdfsam=4.3.3
+set ver.pdfsam=4.3.3.0
 set name.pdfsam=PDF Split and Merge
 set exe.pdfsam=pdfsam-%pkgver.pdfsam%.msi
 set url.pdfsam=https://github.com/torakiki/pdfsam/releases/download/v%pkgver.pdfsam%/%exe.pdfsam%
@@ -123,8 +123,8 @@ set regtext.tstamps=Tux Paint Stamps
 set regsearch.tstamps=%uninstallreg64%
 set followup.tstamps=reg import "%tpath%!tuxpaint-stamps.reg"
 
-set pkgver.puzzlecollection=20220613.387d323
-set ver.puzzlecollection=0.0.13156.0
+set pkgver.puzzlecollection=20220802.8399cff
+set ver.puzzlecollection=0.0.13206.0
 set name.puzzlecollection=Simon Tatham's Portable Puzzle Collection
 set exe.puzzlecollection=puzzles-%pkgver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
