@@ -9,7 +9,7 @@ set exe.firefox=Firefox Setup %pkgver.firefox%.exe
 set url.firefox="https://download.mozilla.org/?product=firefox-%pkgver.firefox%-ssl&os=win64&lang=en-US"
 set arg.firefox=-ms
 set chk.firefox=%ProgramFiles%\Mozilla Firefox\firefox.exe
-set regtext.firefox=firefox
+set regtext.firefox=Mozilla Firefox
 set regsearch.firefox=%uninstallreg64%
 
 set pkgver.loffice=7.4.0
@@ -19,7 +19,7 @@ set exe.loffice=LibreOffice_%pkgver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%pkgver.loffice%/win/x86_64/%exe.loffice%
 set arg.loffice=/qn /passive /norestart
 set chk.loffice=%ProgramFiles%\LibreOffice\program\soffice.exe
-set regtext.loffice=(multilanguage)
+set regtext.loffice=LibreOffice * (multilanguage)
 set regsearch.loffice=%uninstallreg64%
 
 set pkgver.lofficehelp=7.4.0
@@ -29,7 +29,7 @@ set exe.lofficehelp=LibreOffice_%pkgver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%pkgver.lofficehelp%/win/x86_64/%exe.lofficehelp%
 set arg.lofficehelp=/qn /passive /norestart
 set chk.lofficehelp=%ProgramFiles%\LibreOffice\help\en-US\text\shared\need_help.html
-set regtext.lofficehelp=Help Pack
+set regtext.lofficehelp=LibreOffice * Help Pack
 set regsearch.lofficehelp=%uninstallreg64%
 
 set pkgver.pdfsam=4.3.3
@@ -69,7 +69,7 @@ set exe.joplin=Joplin-Setup-%pkgver.joplin%.exe
 set url.joplin=https://github.com/laurent22/joplin/releases/download/v%pkgver.joplin%/%exe.joplin%
 set arg.joplin=/ALLUSERS=1 /S
 set chk.joplin=%ProgramFiles%\Joplin\Joplin.exe
-set regtext.joplin=Joplin
+set regtext.joplin=Joplin *
 set regsearch.joplin=%uninstallreg64%
 
 set pkgver.bbit=4.4.2
@@ -79,7 +79,7 @@ set exe.bbit=BleachBit-%pkgver.bbit%-setup.exe
 set url.bbit=https://download.bleachbit.org/%exe.bbit%
 set arg.bbit=/S /allusers
 set chk.bbit=%ProgramFiles(x86)%\BleachBit\bleachbit.exe
-set regtext.bbit=BleachBit
+set regtext.bbit=BleachBit *
 set regsearch.bbit=%uninstallreg32%
 
 set pkgver.7zip=2201
@@ -89,7 +89,7 @@ set exe.7zip=7z%pkgver.7zip%-x64.msi
 set url.7zip=https://www.7-zip.org/a/%exe.7zip%
 set arg.7zip=/qn /norestart
 set chk.7zip=%ProgramFiles%\7-Zip\7z.exe
-set regtext.7zip=7-Zip
+set regtext.7zip=7-Zip *
 set regsearch.7zip=%uninstallreg64%
 
 set pkgver.spdf=3.4.6
@@ -99,7 +99,7 @@ set exe.spdf=SumatraPDF-%pkgver.spdf%-64-install.exe
 set url.spdf=https://files.sumatrapdfreader.org/file/kjk-files/software/sumatrapdf/rel/%pkgver.spdf%/%exe.spdf%
 set arg.spdf=-s -all-users
 set chk.spdf=%ProgramFiles%\SumatraPDF\SumatraPDF.exe
-set regtext.spdf=Sumatra
+set regtext.spdf=SumatraPDF
 set regsearch.spdf=%uninstallreg64%
 
 set pkgver.tpaint=0.9.28
@@ -109,7 +109,7 @@ set exe.tpaint=tuxpaint-%pkgver.tpaint%-windows-sdl2.0-x86_64-installer.exe
 set url.tpaint=https://sourceforge.net/projects/tuxpaint/files/tuxpaint/0.9.28/%exe.tpaint%/download
 set arg.tpaint=/VERYSILENT /NORESTART
 set chk.tpaint=%ProgramFiles%\TuxPaint\tuxpaint.exe
-set regtext.tpaint=Tux Paint
+set regtext.tpaint=Tux Paint 0*
 set regsearch.tpaint=%uninstallreg64%
 
 set pkgver.tstamps=2022-06-04
@@ -119,7 +119,7 @@ set exe.tstamps=tuxpaint-stamps-%pkgver.tstamps%-windows-installer.exe
 set url.tstamps=https://sourceforge.net/projects/tuxpaint/files/tuxpaint-stamps/%pkgver.tstamps%/%exe.tstamps%/download
 set arg.tstamps=/VERYSILENT /NORESTART
 set chk.tstamps=%ProgramFiles%\TuxPaint\unins001.exe
-set regtext.tstamps=Tux Paint Stamps
+set regtext.tstamps=Tux Paint Stamps *
 set regsearch.tstamps=%uninstallreg64%
 set followup.tstamps=reg import "%tpath%!tuxpaint-stamps.reg"
 
