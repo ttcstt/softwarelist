@@ -42,7 +42,7 @@ set chk.pdfsam=%ProgramFiles%\PDFsam Basic\pdfsam.exe
 set regtext.pdfsam=PDFsam Basic
 set regsearch.pdfsam=%uninstallreg64%
 
-set pkgver.npp=8.4.4
+set pkgver.npp=8.4.5
 set ver.npp=%pkgver.npp%
 set name.npp=Notepad++
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
