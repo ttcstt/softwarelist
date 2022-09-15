@@ -124,7 +124,7 @@ set regsearch.tstamps=%uninstallreg64%
 set followup.tstamps=reg import "%tpath%!tuxpaint-stamps.reg"
 
 set pkgver.puzzlecollection=20220913.27dd36e
-set ver.puzzlecollection=0.0.13206.0
+set ver.puzzlecollection=0.0.13248.0
 set name.puzzlecollection=Simon Tatham's Portable Puzzle Collection
 set exe.puzzlecollection=puzzles-%pkgver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
