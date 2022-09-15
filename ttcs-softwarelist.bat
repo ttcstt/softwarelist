@@ -12,8 +12,8 @@ set chk.firefox=%ProgramFiles%\Mozilla Firefox\firefox.exe
 set regtext.firefox=Mozilla Firefox
 set regsearch.firefox=%uninstallreg64%
 
-set pkgver.loffice=7.4.0
-set ver.loffice=7.4.0.3
+set pkgver.loffice=7.4.1
+set ver.loffice=7.4.1.3
 set name.loffice=LibreOffice
 set exe.loffice=LibreOffice_%pkgver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%pkgver.loffice%/win/x86_64/%exe.loffice%
@@ -22,8 +22,8 @@ set chk.loffice=%ProgramFiles%\LibreOffice\program\soffice.exe
 set regtext.loffice=LibreOffice * (multilanguage)
 set regsearch.loffice=%uninstallreg64%
 
-set pkgver.lofficehelp=7.4.0
-set ver.lofficehelp=7.4.0.3
+set pkgver.lofficehelp=7.4.1
+set ver.lofficehelp=7.4.1.3
 set name.lofficehelp=LibreOffice Help Pack
 set exe.lofficehelp=LibreOffice_%pkgver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%pkgver.lofficehelp%/win/x86_64/%exe.lofficehelp%
