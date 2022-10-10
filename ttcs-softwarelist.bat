@@ -2,7 +2,7 @@ set softwarelist=firefox loffice lofficehelp pdfsam npp vlc joplin bbit 7zip spd
 set uninstallreg64=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 set uninstallreg32=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 
-set pkgver.firefox=105.0.1
+set pkgver.firefox=105.0.3
 set ver.firefox=%pkgver.firefox%
 set name.firefox=Mozilla Firefox
 set exe.firefox=Firefox Setup %pkgver.firefox%.exe
@@ -42,7 +42,7 @@ set chk.pdfsam=%ProgramFiles%\PDFsam Basic\pdfsam.exe
 set regtext.pdfsam=PDFsam Basic
 set regsearch.pdfsam=%uninstallreg64%
 
-set pkgver.npp=8.4.5
+set pkgver.npp=8.4.6
 set ver.npp=%pkgver.npp%
 set name.npp=Notepad++
 set exe.npp=npp.%ver.npp%.Installer.x64.exe
