@@ -13,7 +13,7 @@ set regtext.firefox=Mozilla Firefox
 set regsearch.firefox=%uninstallreg64%
 
 set pkgver.loffice=7.4.2
-set ver.loffice=7.4.1.2
+set ver.loffice=7.4.2.3
 set name.loffice=LibreOffice
 set exe.loffice=LibreOffice_%pkgver.loffice%_Win_x64.msi
 set url.loffice=https://download.documentfoundation.org/libreoffice/stable/%pkgver.loffice%/win/x86_64/%exe.loffice%
@@ -23,7 +23,7 @@ set regtext.loffice=LibreOffice * (multilanguage)
 set regsearch.loffice=%uninstallreg64%
 
 set pkgver.lofficehelp=7.4.2
-set ver.lofficehelp=7.4.1.2
+set ver.lofficehelp=7.4.2.3
 set name.lofficehelp=LibreOffice Help Pack
 set exe.lofficehelp=LibreOffice_%pkgver.lofficehelp%_Win_x64_helppack_en-US.msi
 set url.lofficehelp=https://download.documentfoundation.org/libreoffice/stable/%pkgver.lofficehelp%/win/x86_64/%exe.lofficehelp%
@@ -124,7 +124,7 @@ set regsearch.tstamps=%uninstallreg64%
 set followup.tstamps=reg import "%tpath%!tuxpaint-stamps.reg"
 
 set pkgver.puzzlecollection=20221014.f11e93e
-set ver.puzzlecollection=0.0.13248.0
+set ver.puzzlecollection=0.0.13279.0
 set name.puzzlecollection=Simon Tatham's Portable Puzzle Collection
 set exe.puzzlecollection=puzzles-%pkgver.puzzlecollection%-installer.msi
 set url.puzzlecollection=https://www.chiark.greenend.org.uk/~sgtatham/puzzles/%exe.puzzlecollection%
