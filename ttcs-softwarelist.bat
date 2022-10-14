@@ -12,7 +12,7 @@ set chk.firefox=%ProgramFiles%\Mozilla Firefox\firefox.exe
 set regtext.firefox=Mozilla Firefox
 set regsearch.firefox=%uninstallreg64%
 
-set pkgver.loffice=7.4.1
+set pkgver.loffice=7.4.2
 set ver.loffice=7.4.1.2
 set name.loffice=LibreOffice
 set exe.loffice=LibreOffice_%pkgver.loffice%_Win_x64.msi
@@ -22,7 +22,7 @@ set chk.loffice=%ProgramFiles%\LibreOffice\program\soffice.exe
 set regtext.loffice=LibreOffice * (multilanguage)
 set regsearch.loffice=%uninstallreg64%
 
-set pkgver.lofficehelp=7.4.1
+set pkgver.lofficehelp=7.4.2
 set ver.lofficehelp=7.4.1.2
 set name.lofficehelp=LibreOffice Help Pack
 set exe.lofficehelp=LibreOffice_%pkgver.lofficehelp%_Win_x64_helppack_en-US.msi
@@ -123,7 +123,7 @@ set regtext.tstamps=Tux Paint Stamps *
 set regsearch.tstamps=%uninstallreg64%
 set followup.tstamps=reg import "%tpath%!tuxpaint-stamps.reg"
 
-set pkgver.puzzlecollection=20220913.27dd36e
+set pkgver.puzzlecollection=20221014.f11e93e
 set ver.puzzlecollection=0.0.13248.0
 set name.puzzlecollection=Simon Tatham's Portable Puzzle Collection
 set exe.puzzlecollection=puzzles-%pkgver.puzzlecollection%-installer.msi
