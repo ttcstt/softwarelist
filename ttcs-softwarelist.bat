@@ -2,7 +2,7 @@ set softwarelist=firefox libreoffice libreofficehelp pdfsam notepadplusplus vlc 
 set uninstallreg64=HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall
 set uninstallreg32=HKLM\SOFTWARE\WOW6432Node\Microsoft\Windows\CurrentVersion\Uninstall
 
-set pkgver.firefox=105.0.3
+set pkgver.firefox=106.0
 set ver.firefox=%pkgver.firefox%
 set name.firefox=Mozilla Firefox
 set exe.firefox=Firefox Setup %pkgver.firefox%.exe
